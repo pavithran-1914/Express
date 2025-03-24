@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(9, 32, 53);
+}
+header{
+    text-align: center;
+    font-size: 3rem;
+    background-color: #CCCCFF;
+    border: 1px solid ;
+    border-radius: 100px;
+}
+.container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+#registrationForm{
+    border: 1px solid #dfdfdf;
+    padding: 75px;
+    padding-top: 80px;
+    padding-right: 150px;
+    border-radius: 10px;
+    background: #4caee2;
+    margin-right: 400px;
+    margin-left: 100px;
+    border: none;
+}
+#updateForm{
+    border: 1px solid #dfdfdf;
+    padding: 75px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-right: 200px;
+    border-radius: 10px;
+    background:#9FE2BF;
+    margin-right: 250px;
+    margin-left: -350px;
+    border: none;
+}
+#deleteForm{
+    border: 1px solid #dfdfdf;
+    padding: 25px;
+    padding-right: 80px;
+    border: none;
+    border-radius: 10px;
+    background: #DE3163;
+    margin-left: -200px;
+    margin-right: 100px;
+}
+label{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+input{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(11, 245, 81);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(97, 167, 224);
+}
